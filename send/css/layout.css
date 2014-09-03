@@ -1,0 +1,104 @@
+@charset "utf-8";
+#outer{
+   width:380px;
+   height:100%;
+   position:absolute;
+   /*background-color:#ccc;*/
+   overflow:hidden;
+}
+#scrollArea{
+   width:380px;
+   height:100%;
+   overflow-y:scroll;
+   padding-right:50px;
+}
+
+#sections{
+	text-align:center;
+	margin-top: 54px;
+	
+}
+
+.round-button {
+	width:25%;
+	margin:0 auto;
+}
+.round-button-circle {
+	width: 100%;
+	height:0;
+	padding-bottom: 100%;
+    border-radius: 50%;
+	border:10px solid #eb16fb;
+    overflow:hidden;
+    
+    background: #eb16fb; 
+    
+}
+.round-button-circle:hover {
+	background:#ffffff;
+	
+}
+.round-button a {
+    display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+    padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+    
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+.round-button a:hover {
+color:#eb16fb;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+  color:#fff;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input {
+width: 50%;
+outline: none;
+	margin:0 auto;
+}	
+
+#fileupload {
+  height: 0;
+  width: 0;
+}
+	
+#fileupload-label {
+  content: 'SEND';
+  display: inline-block;
+  text-align:center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20pt;
+  
+  width: 50%;
+	height:0;
+	padding-bottom: 50%;
+	padding-top:20%;
+    padding-bottom:30%;
+    border-radius: 50%;
+	border:10px solid #eb16fb;
+    overflow:hidden;
+    
+    background: #eb16fb; 
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
